@@ -8,7 +8,7 @@ My recommendation is to use the proxychains.conf example configuration included 
 shred (used for secure deletion of temp files), proxychains, python 2.6*
 
 # Usage:
-1. git clone https://github.com/recursive123/get_proxies.git
+1. git clone https://github.com/r3cursive123/get_proxies.git
 2. cd get_proxies
 3. "sudo python setup.py" - this will create a backup of /etc/proxychains.conf and copy our config file template to replace /etc/proxychains.conf
 
