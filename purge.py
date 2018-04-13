@@ -24,7 +24,7 @@ banner()
 
 print colored("Removing current proxychains.conf" + "\n","red")
 os.system("rm proxychains.conf")
-print colored("Copying our custom proxychains config file to /etc" + "\n","red")
+print colored("Copying our custom proxychains config file" + "\n","red")
 shutil.copy("proxychains.conf.template","proxychains.conf")
 print colored("Copied!" + "\n" ,"blue")
 print colored("You may now run proxy_scrape.py to get a fresh list" + "\n" ,"yellow")
