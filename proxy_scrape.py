@@ -28,7 +28,7 @@ banner()
 # Number of IP's to add..
 max = raw_input("How many proxies shall we add? ")
 
-target = "/etc/proxychains.conf"
+target = "proxychains.conf"
 page = requests.get("https://www.socks-proxy.net/")
 soup = BeautifulSoup(page.content, 'html.parser')
 
