@@ -23,8 +23,8 @@ def banner():
 banner()
 
 print colored("Removing current proxychains.conf" + "\n","red")
-os.system("rm /etc/proxychains.conf")
+os.system("rm proxychains.conf")
 print colored("Copying our custom proxychains config file to /etc" + "\n","red")
-shutil.copy("proxychains.conf","/etc/proxychains.conf")
+shutil.copy("proxychains.conf.template","proxychains.conf")
 print colored("Copied!" + "\n" ,"blue")
 print colored("You may now run proxy_scrape.py to get a fresh list" + "\n" ,"yellow")
